@@ -4,7 +4,7 @@ function App() {
   return (
     <>
         <Student />
-        <Students name="afreen"/>
+        <Students name="vicky"/>
     </>
   );
 }
