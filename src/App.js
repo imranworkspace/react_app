@@ -1,9 +1,11 @@
-
+import Student from "./Student";
+import Students from "./Students";
 function App() {
   return (
-    <div>
-        Hi
-    </div>
+    <>
+        <Student />
+        <Students name="afreen"/>
+    </>
   );
 }
 
