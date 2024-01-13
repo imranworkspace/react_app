@@ -5,6 +5,7 @@ import Students from "./mycomponents/Students";
 
 // for jsx
 import e1 from "./mycomponents/JSX_ex";
+import Typechecking from "./mycomponents/Typechecking_ex";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         <p>--------------------------------</p>
         <h1>JSX Example</h1>
         <p>{e1}</p>
+        <p>--------------------------------</p>
+        <h1>Typechecking Example</h1>
+        <Typechecking name='taklu' age={23} />
         <p>--------------------------------</p>
     </>
   );
