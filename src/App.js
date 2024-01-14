@@ -5,6 +5,7 @@ import Students from "./mycomponents/Students";
 
 // for jsx
 import e1 from "./mycomponents/JSX_ex";
+import MyState from "./mycomponents/MyState";
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
         <p>--------------------------------</p>
         <h1>JSX Example</h1>
         <p>{e1}</p>
+        <p>--------------------------------</p>
+        <p>--------------------------------</p>
+        <h1>STATE Example</h1>
+        <MyState roll={123}/>
         <p>--------------------------------</p>
     </>
   );
