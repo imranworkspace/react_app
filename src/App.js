@@ -2,7 +2,6 @@ import Fun_student from "./mycomponents/Fun_student";
 import Fun_studentprops from "./mycomponents/Fun_studentprops";
 import Student from "./mycomponents/Student";
 import Students from "./mycomponents/Students";
-
 // for jsx
 import e1 from "./mycomponents/JSX_ex";
 import Class_State from "./mycomponents/Class_State";
@@ -52,5 +51,4 @@ function App() {
     </>
   );
 }
-
 export default App;
