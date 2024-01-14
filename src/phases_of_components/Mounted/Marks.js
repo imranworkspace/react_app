@@ -1,8 +1,8 @@
 const { Component } = require("react");
 
 class Marks extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         console.log('Marks - constructor call')
     }
     static getDerivedStateFromProps(props,state){

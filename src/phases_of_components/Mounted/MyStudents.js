@@ -1,9 +1,10 @@
 import Marks from "./Marks";
+
 const { Component } = require("react");
 
 class MyStudents extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         console.log('MyStudents - constructor call')
     }
     static getDerivedStateFromProps(props,state){
