@@ -7,6 +7,8 @@ import Students from "./mycomponents/Students";
 import e1 from "./mycomponents/JSX_ex";
 import Class_State from "./mycomponents/Class_State";
 import Constructor_State from "./mycomponents/Constructor_State";
+import Class_Button_Event from "./mycomponents/Class_Button_Event";
+import Function_Button_Event from "./mycomponents/Function_Button_Event";
 
 function App() {
   return (
@@ -28,6 +30,12 @@ function App() {
         <p>--------------------------------</p>
         <h1>STATE Example Inside the constructor</h1>
         <Constructor_State roll={123}/>
+        <p>--------------------------------</p>
+        <h1>Button Clicked Event Using Class</h1>
+        <Class_Button_Event age={30}/>
+        <p>--------------------------------</p>
+        <h1>Button Clicked Event Using Function</h1>
+        <Function_Button_Event age={29}/>
         <p>--------------------------------</p>
     </>
   );
