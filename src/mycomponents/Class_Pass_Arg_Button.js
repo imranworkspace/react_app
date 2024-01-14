@@ -9,16 +9,17 @@ class Class_Pass_Arg_Button extends Component{
         console.log('button clicked');
         console.log('email found ',email);
         console.log('events ',e);
-    
     }
 
     render(){    
         return (
             <div>
-                {/* <button onClick={this.handleClick}>Pass Arg by Button</button> */}
+                {/* call by event  */}
                 <button onClick={e=>{
                     this.handleClick(this.state.email,e);
-                }}>Pass Arg by Button</button>
+                }}>Pass Arg by Button</button>  <br></br> <br></br>
+                {/* call by bind() function */}
+                <button onClick={this.handleClick.bind(this,this.state.email)}>Pass Arg by Bind function</button>
             </div>
         )
     }

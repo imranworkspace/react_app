@@ -41,7 +41,9 @@ function App() {
 
 
         <h1>Button Clicked Using Passing Arguments To Function</h1>
+        <h1>Button Clicked Using bind() function</h1>
         <Class_Pass_Arg_Button/>
+
         <p>--------------------------------</p>
     </>
   );
