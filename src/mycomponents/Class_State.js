@@ -1,7 +1,7 @@
 import { Component } from "react"
 
 
-class MyState extends Component{
+class Class_State extends Component{
     state={
         name:'imran',
         roll:this.props.roll
@@ -13,4 +13,4 @@ class MyState extends Component{
     }
 }
 
-export default MyState
+export default Class_State
