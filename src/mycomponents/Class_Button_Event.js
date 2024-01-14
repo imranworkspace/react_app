@@ -12,11 +12,13 @@ class Class_Button_Event extends Component{
     render(){
         const handleClick=()=>{
             console.log('button clicked by class');
-            console.log('your name is '+this.state.name+' and age is '+this.state.age)
+            // setState for update on class level
+            this.setState({name:'imran'})
         }
 
         return (
             <div>
+                <h1>your name is<i> {this.state.name} </i> and your age is <i>{this.state.age}</i></h1>
                 <button onClick={handleClick} >Class Click</button>
             </div>
         )
