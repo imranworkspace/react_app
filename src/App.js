@@ -9,6 +9,7 @@ import Class_State from "./mycomponents/Class_State";
 import Constructor_State from "./mycomponents/Constructor_State";
 import Class_Button_Event from "./mycomponents/Class_Button_Event";
 import Function_Button_Event from "./mycomponents/Function_Button_Event";
+import Class_Pass_Arg_Button from "./mycomponents/Class_Pass_Arg_Button";
 
 function App() {
   return (
@@ -36,6 +37,11 @@ function App() {
         <p>--------------------------------</p>
         <h1>Button Clicked Event Using Function</h1>
         <Function_Button_Event age={29}/>
+        <p>--------------------------------</p>
+
+
+        <h1>Button Clicked Using Passing Arguments To Function</h1>
+        <Class_Pass_Arg_Button/>
         <p>--------------------------------</p>
     </>
   );
